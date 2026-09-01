@@ -39,5 +39,5 @@ export const ASSETS = {
   portfolio2: '/Calendar.png',
   portfolio3: '/Gwen.png',
   portfolio4: '/Doctors.jpg',
-  portfolio5: '/accenture.png',
+  portfolio5: '/Accenture.png',
 };
