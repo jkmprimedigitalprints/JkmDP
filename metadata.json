@@ -1,0 +1,6 @@
+{
+  "name": "JKM Prime Digital Prints",
+  "description": "A professional digital printing management platform featuring real-time synchronization, intelligent product costing, automatic SRP calculation, and POS integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

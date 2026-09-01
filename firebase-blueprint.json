@@ -1,0 +1,174 @@
+{
+  "database": {
+    "rules": "firestore.rules",
+    "collections": {
+      "products": {
+        "description": "Products catalog linked with the POS system",
+        "schema": {
+          "id": "string",
+          "name": "string",
+          "basePrice": "number",
+          "category": "string",
+          "imageUrl": "string",
+          "description": "string",
+          "requiresDimensions": "boolean (optional)",
+          "unit": "string (optional)",
+          "materialCost": "number (optional)",
+          "laborCost": "number (optional)",
+          "electricityCost": "number (optional)",
+          "maintenanceCost": "number (optional)",
+          "miscellaneousCost": "number (optional)",
+          "recommendedProfit": "number (optional)",
+          "finalSRP": "number (optional)",
+          "materialsUsed": "array (optional)",
+          "materialBreakdown": "string (optional)",
+          "createdDate": "string (optional)"
+        }
+      },
+      "materials_library": {
+        "description": "Materials library for the product costing module",
+        "schema": {
+          "id": "string",
+          "name": "string",
+          "category": "string",
+          "unit": "string",
+          "costPerPiece": "number",
+          "costPerSheet": "number",
+          "costPerMeter": "number",
+          "costPerRoll": "number",
+          "supplier": "string",
+          "notes": "string"
+        }
+      },
+      "orders": {
+        "description": "Customer order transaction records",
+        "schema": {
+          "id": "string",
+          "customerName": "string",
+          "customerContact": "string (optional)",
+          "date": "string",
+          "time": "string",
+          "items": "array of CartItem",
+          "subtotal": "number",
+          "discount": "number",
+          "grandTotal": "number",
+          "paymentType": "string",
+          "paymentMethod": "string",
+          "downPaymentAmount": "number",
+          "remainingBalance": "number",
+          "amountPaid": "number",
+          "change": "number",
+          "status": "string",
+          "notes": "string (optional)"
+        }
+      },
+      "inventory": {
+        "description": "Raw stock items and inventory tracking levels",
+        "schema": {
+          "id": "string",
+          "name": "string",
+          "category": "string",
+          "stock": "number",
+          "unit": "string",
+          "minThreshold": "number"
+        }
+      },
+      "capital_materials": {
+        "description": "Capital contributions of materials & equipment",
+        "schema": {
+          "id": "string",
+          "name": "string",
+          "quantity": "string",
+          "contributions": "number",
+          "contributor": "string",
+          "date": "string",
+          "type": "string"
+        }
+      },
+      "expenses": {
+        "description": "Overhead business expenses logged",
+        "schema": {
+          "id": "string",
+          "category": "string",
+          "amount": "number",
+          "date": "string",
+          "loggedBy": "string",
+          "description": "string"
+        }
+      },
+      "user_logs": {
+        "description": "User actions and security logs",
+        "schema": {
+          "id": "string",
+          "user": "string",
+          "action": "string",
+          "time": "string",
+          "date": "string"
+        }
+      },
+      "costing_formulas": {
+        "description": "Product costing formulas and calculations",
+        "schema": {
+          "id": "string",
+          "name": "string",
+          "category": "string",
+          "imageUrl": "string",
+          "description": "string",
+          "materialsUsed": "array",
+          "productionTime": "number",
+          "difficulty": "string",
+          "manualSellingPrice": "number (optional)",
+          "syncedToPOS": "boolean (optional)"
+        }
+      },
+      "customer_uploads": {
+        "description": "General customer uploaded file and artwork assets",
+        "schema": {
+          "id": "string",
+          "customerId": "string",
+          "customerName": "string",
+          "fileName": "string",
+          "category": "string",
+          "size": "string",
+          "url": "string",
+          "uploadedAt": "string",
+          "orderId": "string (optional)"
+        }
+      },
+      "support_chats": {
+        "description": "Support chat messages between customers and the admin team",
+        "schema": {
+          "id": "string",
+          "chatId": "string",
+          "senderId": "string",
+          "senderName": "string",
+          "message": "string",
+          "timestamp": "number",
+          "fileAttachment": "object (optional)"
+        }
+      },
+      "notifications": {
+        "description": "Live real-time notifications for admin and customers",
+        "schema": {
+          "id": "string",
+          "recipientId": "string ('admin' or customer user ID)",
+          "title": "string",
+          "message": "string",
+          "type": "string ('order' | 'file' | 'chat' | 'system')",
+          "timestamp": "number",
+          "isRead": "boolean",
+          "linkId": "string (optional)"
+        }
+      },
+      "landing_page_reels": {
+        "description": "Facebook reels displayed on the landing page slider",
+        "schema": {
+          "id": "string",
+          "title": "string",
+          "facebookUrl": "string",
+          "order": "number"
+        }
+      }
+    }
+  }
+}
