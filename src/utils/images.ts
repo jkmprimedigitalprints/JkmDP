@@ -34,10 +34,10 @@ export const ASSETS = {
   
   // Client Projects & Portfolio outputs
   clientProject1: '/Lyceum.png',
-  clientProject2: '/Accenture.png',
+  clientProject2: '/accenture.png',
   portfolio1: '/Lyceum.png',
   portfolio2: '/Calendar.png',
   portfolio3: '/Gwen.png',
   portfolio4: '/Doctors.jpg',
-  portfolio5: '/Accenture.png',
+  portfolio5: '/accenture.png',
 };
