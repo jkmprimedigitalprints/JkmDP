@@ -139,36 +139,41 @@ export const PORTFOLIO: PortfolioItem[] = [
     title: 'Lyceum Customized Notebooks Project',
     category: 'Academic',
     imageUrl: '/Lyceum.png',
-    description: 'Bulk order of high-grade bound spiral wire notebooks with customized matte-laminated covers for Lyceum students and faculty.'
+    description:
+      'Bulk order of high-grade bound spiral wire notebooks with customized matte-laminated covers for Lyceum students and faculty.',
   },
   {
     id: 'proj-island-gas',
     title: 'ISLAND GAS 2026 Calendar Project',
     category: 'Corporate',
     imageUrl: '/Calendar.png',
-    description: 'Custom double-loopwire bound multi-page calendars featuring high-contrast corporate identity graphics for ISLAND GAS year-end distribution.'
+    description:
+      'Custom double-loop wire bound multi-page calendars featuring high-contrast corporate identity graphics for ISLAND GAS year-end distribution.',
   },
   {
     id: 'proj-gwen-zamora',
     title: "Customized Shirts for Gwen Zamora's Business",
     category: 'Custom Apparel',
     imageUrl: '/Gwen.png',
-    description: "Soft ring-spun cotton fabric customized t-shirts utilizing high-elastic stretchable DTF printing for Gwen Zamora's retail brand."
+    description:
+      "Soft ring-spun cotton fabric customized t-shirts utilizing high-elastic stretchable DTF printing for Gwen Zamora's retail brand.",
   },
   {
     id: 'proj-doctors',
     title: 'Customized Notebooks for Doctors',
     category: 'Corporate',
     imageUrl: '/Doctors.jpg',
-    description: 'Elegantly finished custom journals featuring individual doctor name engravings and custom medicine prescription log page templates.'
+    description:
+      'Elegantly finished custom journals featuring individual doctor name engravings and custom medicine prescription log page templates.',
   },
   {
     id: 'proj-accenture',
     title: 'Customized Jackets for Accenture Philippines',
     category: 'Custom Apparel',
     imageUrl: '/accenture.png',
-    description: 'High-density thermal film transfer customized hoodies and weather-resistant varsity jackets branded for Accenture internal corporate teams.'
-  }
+    description:
+      'High-density thermal film transfer customized hoodies and weather-resistant varsity jackets branded for Accenture internal corporate teams.',
+  },
 ];
 
 // Map products and portfolio dynamically to centralized ASSETS helper using real files
