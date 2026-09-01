@@ -204,11 +204,6 @@ export const LoginPage: React.FC<LoginPageProps> = ({ onBackToLanding, onLoginSu
                   </p>
                 </div>
               </div>
-
-              <div className="p-3.5 rounded-2xl bg-slate-800/60 border border-slate-700/60 flex items-start gap-3">
-                <div className="w-8 h-8 rounded-lg bg-indigo-500/10 text-indigo-400 flex items-center justify-center shrink-0 mt-0.5">
-                  <Server className="w-4 h-4" />
-                </div>
               </div>
             </div>
           </div>
@@ -239,9 +234,6 @@ export const LoginPage: React.FC<LoginPageProps> = ({ onBackToLanding, onLoginSu
               <h2 className="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">
                 Admin Sign In
               </h2>
-              <p className="text-slate-400 text-xs sm:text-sm mt-1.5 leading-relaxed">
-                Enter your administrative credentials to manage POS operations, inventory, and analytics.
-              </p>
             </div>
 
             <form onSubmit={handleSubmit} className="space-y-5">
