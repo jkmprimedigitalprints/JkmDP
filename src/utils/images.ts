@@ -33,9 +33,9 @@ export const ASSETS = {
   productBanner: '/sintra2.jpg',
   
   // Client Projects & Portfolio outputs
-  clientProject1: '/lyceum.png',
-  clientProject2: '/accenture.png',
-  portfolio1: '/lyceum.png',
+  clientProject1: '/Lyceum.png',
+  clientProject2: '/Accenture.png',
+  portfolio1: '/Lyceum.png',
   portfolio2: '/Calendar.png',
   portfolio3: '/Gwen.png',
   portfolio4: '/Doctors.jpg',

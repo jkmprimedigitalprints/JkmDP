@@ -209,21 +209,15 @@ export const LoginPage: React.FC<LoginPageProps> = ({ onBackToLanding, onLoginSu
                 <div className="w-8 h-8 rounded-lg bg-indigo-500/10 text-indigo-400 flex items-center justify-center shrink-0 mt-0.5">
                   <Server className="w-4 h-4" />
                 </div>
-                <div>
-                  <h4 className="text-xs font-bold text-white">Cloud Firestore Backup</h4>
-                  <p className="text-[11px] text-slate-400 leading-relaxed mt-0.5">
-                    Continuous cloud synchronization with seamless offline fallback resilience.
-                  </p>
-                </div>
               </div>
             </div>
           </div>
 
           <div className="pt-6 border-t border-slate-800/80 flex items-center justify-between text-[11px] text-slate-500 font-mono">
-            <span>Taguig Hub Terminal</span>
+            <span>Taguig, Metro Manila</span>
             <span className="flex items-center gap-1 text-slate-400">
               <Zap className="w-3.5 h-3.5 text-amber-400" />
-              <span>TLS 1.3 Encrypted</span>
+              <span>Encrypted</span>
             </span>
           </div>
         </div>

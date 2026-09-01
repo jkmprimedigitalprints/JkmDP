@@ -455,7 +455,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onLoginClick }) => {
                           <span className="text-[9px] font-mono text-sky-400">₱90</span>
                         </div>
                         <div className="bg-slate-800/60 border border-slate-700/50 rounded-lg p-1.5 text-center">
-                          <img src="/lyceum.png" alt="Custom Wirebound Notebooks" className="w-full h-12 object-cover rounded mb-1" referrerPolicy="no-referrer" />
+                          <img src="/Lyceum.png" alt="Custom Wirebound Notebooks" className="w-full h-12 object-cover rounded mb-1" referrerPolicy="no-referrer" />
                           <span className="text-[10px] font-semibold text-slate-200 block truncate">Notebooks</span>
                           <span className="text-[9px] font-mono text-sky-400">₱79</span>
                         </div>
