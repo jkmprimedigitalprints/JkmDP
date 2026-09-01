@@ -39,13 +39,13 @@ export const BeforeAfterSlider: React.FC = () => {
       {/* Before Image (Raw file) */}
       <div className="absolute inset-0">
         <img 
-          src="https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=1200&q=80" 
+          src="/colored.jpg" 
           alt="Before Editing" 
-          className="w-full h-full object-cover filter blur-[1.2px] saturate-[85%] contrast-[95%] brightness-[95%]"
+          className="w-full h-full object-cover filter blur-[1.5px] saturate-[75%] contrast-[90%] brightness-[90%]"
           referrerPolicy="no-referrer"
         />
         <div className="absolute top-4 left-4 bg-slate-900/85 backdrop-blur-xs text-white text-[10px] font-mono font-bold uppercase px-3 py-1.5 rounded-lg border border-white/10 z-10">
-          Before Editing (Lower Quality)
+          Raw Customer File (Uncalibrated)
         </div>
       </div>
 
@@ -55,13 +55,13 @@ export const BeforeAfterSlider: React.FC = () => {
         style={{ clipPath: `polygon(0 0, ${sliderPosition}% 0, ${sliderPosition}% 100%, 0 100%)` }}
       >
         <img 
-          src="https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=1200&q=80" 
+          src="/colored.jpg" 
           alt="After Editing" 
           className="w-full h-full object-cover filter saturate-[110%] contrast-[105%] brightness-[102%]"
           referrerPolicy="no-referrer"
         />
         <div className="absolute top-4 right-4 bg-sky-500 text-white text-[10px] font-mono font-bold uppercase px-3 py-1.5 rounded-lg shadow-md border border-sky-400/25 z-20">
-          After Editing (Sharp & Clear)
+          Studio Color Calibrated Output
         </div>
       </div>
 

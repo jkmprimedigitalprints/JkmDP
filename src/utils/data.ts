@@ -112,7 +112,7 @@ export const PRODUCTS: Product[] = [
     name: 'Customized Hoodies & Jackets',
     basePrice: 500,
     category: 'Apparel',
-    imageUrl: 'https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=400&q=80',
+    imageUrl: '/tshirtcover.jpg',
     description: 'Warm premium fleece zip-up hoodies and pullover jackets customized with your front and back logo prints.'
   },
   {
@@ -120,7 +120,7 @@ export const PRODUCTS: Product[] = [
     name: 'Customized Drink Tumblers & Flasks',
     basePrice: 180,
     category: 'Drinkware',
-    imageUrl: 'https://images.unsplash.com/photo-1572945281861-68b122e3e117?auto=format&fit=crop&w=400&q=80',
+    imageUrl: '/mug1.jpg',
     description: 'Insulated double-wall acrylic tumblers and smart LED temperature display stainless steel vacuum flasks.'
   },
   {
