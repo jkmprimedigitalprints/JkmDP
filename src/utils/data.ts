@@ -166,7 +166,7 @@ export const PORTFOLIO: PortfolioItem[] = [
     id: 'proj-accenture',
     title: 'Customized Jackets for Accenture Philippines',
     category: 'Custom Apparel',
-    imageUrl: '/accenture.png',
+    imageUrl: '/Accenture.png',
     description: 'High-density thermal film transfer customized hoodies and weather-resistant varsity jackets branded for Accenture internal corporate teams.'
   }
 ];
