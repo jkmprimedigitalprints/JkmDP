@@ -185,7 +185,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onLoginClick }) => {
           >
             <img 
               src="/logo.png" 
-              alt="JKM Prime Logo" 
+              alt="JKM Prime Digital Prints Official Logo" 
               className="w-9 h-9 object-contain rounded-lg border border-slate-100 shadow-2xs" 
               referrerPolicy="no-referrer" 
             />
@@ -1152,7 +1152,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onLoginClick }) => {
                   {/* Brand Column */}
                   <div className="space-y-3 md:col-span-2">
                     <div className="flex items-center gap-2.5">
-                      <img src="/logo.png" alt="JKM Prime Logo" className="w-8 h-8 object-contain rounded-md" referrerPolicy="no-referrer" />
+                      <img src="/logo.png" alt="JKM Prime Digital Prints Official Logo" className="w-8 h-8 object-contain rounded-md" referrerPolicy="no-referrer" />
                       <span className="font-extrabold text-base text-white tracking-tight">
                         JKM PRIME DIGITAL PRINTS
                       </span>

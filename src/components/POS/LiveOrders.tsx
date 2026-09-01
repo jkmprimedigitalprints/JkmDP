@@ -1630,10 +1630,11 @@ export const LiveOrders: React.FC<LiveOrdersProps> = ({ orders, onUpdateOrders, 
                             className="w-full bg-white border border-slate-200 px-3 py-1.5 rounded-xl text-xs font-semibold"
                           >
                             <option value="">No Photo Attached</option>
-                            <option value="https://images.unsplash.com/photo-1563013544-824ae1d704d3?w=150&auto=format&fit=crop">GCash Payment Verified Screen</option>
-                            <option value="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=150&auto=format&fit=crop">Vector Artwork Proofing Layout</option>
-                            <option value="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=150&auto=format&fit=crop">Plotter Printing Machine Queue</option>
-                            <option value="https://images.unsplash.com/photo-1530587191325-3db32d826c18?w=150&auto=format&fit=crop">Sealed Delivery Package Box</option>
+                            <option value="/gqr.jpg">GCash Official Payment QR / Verified</option>
+                            <option value="/colored.jpg">Full Color Photo Proofing Output</option>
+                            <option value="/tshirtcover.jpg">DTF Heat Press Apparel Printing</option>
+                            <option value="/mug2.jpg">Custom Sublimation Mug Production</option>
+                            <option value="/lyceum.png">Bound Wirebook Journal Finished Batch</option>
                           </select>
                         </div>
                       </div>

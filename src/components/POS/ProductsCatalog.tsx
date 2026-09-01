@@ -93,7 +93,7 @@ export const ProductsCatalog: React.FC<ProductsCatalogProps> = ({ products, onPr
       category: newCategory,
       basePrice: newPrice,
       description: newDescription.trim() || 'Custom JKM product',
-      imageUrl: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?auto=format&fit=crop&w=400&q=80',
+      imageUrl: '/logo.png',
       isUnlisted: false
     };
 

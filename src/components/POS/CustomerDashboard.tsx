@@ -285,7 +285,7 @@ export const CustomerDashboard: React.FC<CustomerDashboardProps> = ({
         fileName: globalFileName,
         category: globalFileCategory,
         size: globalFileReal ? `${(globalFileReal.size / (1024 * 1024)).toFixed(2)} MB` : '1.5 MB',
-        url: globalFileBase64 || 'https://images.unsplash.com/photo-1541701494587-cb58502866ab?auto=format&fit=crop&w=800&q=80',
+        url: globalFileBase64 || '/colored.jpg',
         uploadedAt: today.toISOString(),
         orderId: globalLinkOrderId || null
       };
@@ -919,7 +919,7 @@ export const CustomerDashboard: React.FC<CustomerDashboardProps> = ({
       
       const newFile = {
         name: fileName,
-        url: 'https://images.unsplash.com/photo-1541701494587-cb58502866ab?auto=format&fit=crop&w=800&q=80', // simulation url
+        url: '/colored.jpg', // simulation url
         date: fDate,
         category: category,
         size: fileSize || '2.4 MB'
@@ -982,7 +982,7 @@ export const CustomerDashboard: React.FC<CustomerDashboardProps> = ({
         method: method,
         date: fDate,
         status: 'Pending' as const,
-        proofImage: 'https://images.unsplash.com/photo-1554415707-6e8cfc93fe23?auto=format&fit=crop&w=800&q=80'
+        proofImage: '/gqr.jpg'
       };
 
       const updatedOrders = orders.map(o => {
@@ -2243,7 +2243,7 @@ export const CustomerDashboard: React.FC<CustomerDashboardProps> = ({
                             <span className="text-[9px] uppercase tracking-wider text-slate-400 font-mono font-bold mb-2">Design Proof Attachment Preview</span>
                             <div className="w-full max-w-sm aspect-[4/3] bg-slate-100 rounded-lg flex items-center justify-center overflow-hidden border border-slate-200 relative">
                               <img 
-                                src={selectedOrder.designLink || 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=600&q=80'} 
+                                src={selectedOrder.designLink || '/colored.jpg'} 
                                 alt="Design Proof Mock" 
                                 className="w-full h-full object-cover"
                                 referrerPolicy="no-referrer"
