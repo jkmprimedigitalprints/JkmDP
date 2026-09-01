@@ -138,7 +138,7 @@ export const PORTFOLIO: PortfolioItem[] = [
     id: 'proj-lyceum',
     title: 'Lyceum Customized Notebooks Project',
     category: 'Academic',
-    imageUrl: '/lyceum.png',
+    imageUrl: '/Lyceum.png',
     description: 'Bulk order of high-grade bound spiral wire notebooks with customized matte-laminated covers for Lyceum students and faculty.'
   },
   {
@@ -166,7 +166,7 @@ export const PORTFOLIO: PortfolioItem[] = [
     id: 'proj-accenture',
     title: 'Customized Jackets for Accenture Philippines',
     category: 'Custom Apparel',
-    imageUrl: '/Acc.png',
+    imageUrl: '/accenture.png',
     description: 'High-density thermal film transfer customized hoodies and weather-resistant varsity jackets branded for Accenture internal corporate teams.'
   }
 ];
